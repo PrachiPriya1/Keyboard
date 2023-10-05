@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/keystyle.css">
+    <link rel="stylesheet" href="style.css">
+    <title>key_words</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="key.js"></script>
+</head>
+<body>
+    <div class="section1">
+        <h1>-:NOTE:-</h1>
+        <p>Choose Your preference Mode</p>
+        <div class="btn_conatainer">
+            <input type="button" value="Black Lit Mode" id="nightModeBtn" onclick="btn_ch()">
+        </div>
+        <!-- <textarea name="text_input" id="" cols="30" rows="10"></textarea> -->
+    </div>
+    <div class="keyboard">
+        <div id="function_row">
+            <div class="funbox all_key" id="hkey1">
+                <button>esc</button>
+            </div>
+            <div class="funbox all_key" id="hkey2">
+               <button>f1</button>
+            </div>
+            <div class="funbox all_key" id="hkey3">
+               <button>f2</button>
+            </div>
+            <div class="funbox all_key" id="hkey4">
+               <button>f3</button>
+            </div>
+            <div class="funbox all_key" id="hkey5">
+               <button>f4</button>
+            </div>
+            <div class="funbox all_key" id="hkey6">
+               <button>f5</button>
+            </div>
+            <div class="funbox all_key" id="hkey7">
+                <button>f6</button>
+            </div>
+            <div class="funbox all_key" id="hkey8">
+                <button>f7</button>
+            </div>
+            <div class="funbox all_key" id="hkey9">
+                <button>f8</button>
+            </div>
+            <div class="funbox all_key" id="hkey10">
+                <button>f9</button>
+            </div>
+            <div class="funbox all_key" id="hkey11">
+                <button>f10</button>
+            </div>
+            <div class="funbox all_key" id="hkey12">
+                <button>f11</button>
+            </div>
+            <div class="funbox all_key" id="hkey13">
+                <button>f12</button>
+            </div>
+            <div class="funbox all_key" id="hkey14">
+                <button>prt sc</button>
+            </div>
+            <div class="funbox all_key" id="hkey15">
+                <button>insert</button>
+            </div>
+            <div class="funbox all_key" id="hkey16">
+                <button>delete</button>
+            </div>
+            <div class="funbox all_key" id="hkey17">
+                <button>ⓛ </button>
+            </div>
+        </div>
+  
+        <div id="first_row">
+            <div class="box all_key" id="Fkey1">~
+                <button>`</button>
+            </div>
+            <div class="box all_key" id="Fkey2">!
+                <button>1</button>
+            </div>
+            <div class="box all_key" id="Fkey3">@
+                <button>2</button>
+            </div>
+            <div class="box all_key" id="Fkey4">#
+                <button>3</button>
+            </div>
+            <div class="box all_key" id="Fkey5">$
+                <button>4</button>
+            </div>
+            <div class="box all_key" id="Fkey6">%
+                <button>5</button>
+            </div>
+            <div class="box all_key" id="Fkey7">^
+                <button>6</button>
+            </div>
+            <div class="box all_key" id="Fkey8">&
+                <button>7</button>
+            </div>
+            <div class="box all_key" id="Fkey9">*
+                <button>8</button>
+            </div>
+            <div class="box all_key" id="Fkey10">(
+                <button>9</button>
+            </div>
+            <div class="box all_key" id="Fkey11">)
+                <button>0</button>
+            </div>
+            <div class="box all_key" id="Fkey12">￣
+                <button>-</button>
+            </div>
+            <div class="box all_key" id="Fkey13">+
+                <button>=</button>
+            </div>
+            <div class="box all_key" id="Fkey14">
+                <button>backspace ←</button>
+            </div>
+        </div>
+
+        <div id="second_row">
+            <div class="box2 all_key" id="skey1">
+                <button>tab <br> ⇆</button>
+                
+            </div>
+            <div class="box2 all_key" id="skey2">
+                <button>Q</button>
+            </div>
+            <div class="box2 all_key" id="skey3">
+                <button>W</button>
+            </div>
+            <div class="box2 all_key" id="skey4">
+                <button>E</button>
+            </div>
+            <div class="box2 all_key" id="skey5">
+                <button>R</button>
+            </div>
+            <div class="box2 all_key" id="skey6">
+                <button>T</button>
+            </div>
+            <div class="box2 all_key" id="skey7">
+                <button>Y</button>
+            </div>
+            <div class="box2 all_key" id="skey8">
+                <button>U</button>
+            </div>
+            <div class="box2 all_key" id="skey9">
+                <button>I</button>
+            </div>
+            <div class="box2 all_key" id="skey10">
+                <button>O</button>
+            </div>
+            <div class="box2 all_key" id="skey11">
+                <button>P</button>
+            </div>
+            <div class="box2 all_key" id="skey12">{
+                <button>[</button>
+            </div>
+            <div class="box2 all_key" id="skey13">}
+                <button>]</button>
+            </div>
+            <div class="box2 all_key" id="skey14">|
+                <button>\</button>
+            </div>
+        </div>
+
+        <div id="third_row">
+            <div class="box3 all_key" id="tkey1">
+                <button>caps lock</button>
+            </div>
+            <div class="box3 all_key" id="tkey2">
+                <button>A</button>
+            </div>
+            <div class="box3 all_key" id="tkey3">
+                <button>S</button>
+            </div>
+            <div class="box3 all_key" id="tkey4">
+                <button>D</button>
+            </div>
+            <div class="box3 all_key" id="tkey5">
+                <button>F</button>
+            </div>
+            <div class="box3 all_key" id="tkey6">
+                <button>G</button>
+            </div>
+            <div class="box3 all_key" id="tkey7">
+                <button>H</button>
+            </div>
+            <div class="box3 all_key" id="tkey8">
+                <button>J</button>
+            </div>
+            <div class="box3 all_key" id="tkey9">
+                <button>K</button>
+            </div>
+            <div class="box3 all_key" id="tkey10">
+                <button>L</button>
+            </div>
+            <div class="box3 all_key" id="tkey11">:
+                <button>;</button>
+            </div>
+            <div class="box3 all_key" id="tkey12">"
+                <button>'</button>
+            </div>
+            <div class="box3 all_key" id="tkey13">
+                <button>enter <br> ↩</button>
+            </div>
+        </div>
+
+        <div id="fourth_row">
+            <div class="box4 all_key" id="fkey1">
+                <button>shift ⇪</button>
+            </div>
+            <div class="box4 all_key" id="fkey2">
+                <button>Z</button>
+            </div>
+            <div class="box4 all_key" id="fkey3">
+                <button>X</button>
+            </div>
+            <div class="box4 all_key" id="fkey4">
+                <button>C</button>
+            </div>
+            <div class="box4 all_key" id="fkey5">
+                <button>V</button>
+            </div>
+            <div class="box4 all_key" id="fkey6">
+                <button>B</button>
+            </div>
+            <div class="box4 all_key" id="fkey7">
+                <button>N</button>
+            </div>
+            <div class="box4 all_key" id="fkey8">
+                <button>M</button>
+            </div>
+            <div class="box4 all_key" id="fkey9"> <
+                <button>,</button>
+            </div>
+            <div class="box4 all_key" id="fkey10">>
+                <button>.</button>
+            </div>
+            <div class="box4 all_key" id="fkey11">?
+                <button>/</button>
+            </div>
+            <div class="box4 all_key" id="fkey12">
+                <button>shift ⇪</button>
+            </div>
+        </div>
+
+        <div id="last_row">
+            <div class="box5 all_key" id="lkey1">
+                <button>ctrl</button>
+            </div>
+            <div class="box5 all_key" id="lkey2">
+                <button>fn</button>
+            </div>
+            <div class="box5 all_key" id="lkey3">
+                <button>🔳</button>
+            </div>
+            <div class="box5 all_key" id="lkey4">
+                <button>alt</button>
+            </div>
+            <div class="box5 all_key" id="lkey5">
+                <button>   </button>
+            </div>
+            <div class="box5 all_key" id="lkey6">
+                <button>alt</button>
+            </div>
+            <div class="box5 all_key" id="lkey7">
+                <button>ctrl</button>
+            </div>
+            <div class="box5" id="lkey8" style="animation: none;">
+                <div class="navi" >
+                    <div class="up" id="up_btn">
+                        <div>▲</div>
+    
+    
+                    </div>
+                    <div class="down">
+                        <div class="navkey all_key" id="left">◀</div>
+                        <div class="navkey all_key" id="mid">▼</div>
+                        <div class="navkey all_key" id="right">▶</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
